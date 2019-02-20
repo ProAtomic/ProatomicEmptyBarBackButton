@@ -1,0 +1,6 @@
+framework module ProatomicEmptyBarBackButton {
+  umbrella header "ProatomicEmptyBarBackButton.h"
+
+  export *
+  module * { export * }
+}

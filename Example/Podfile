@@ -1,0 +1,13 @@
+source 'git@bitbucket.org:proatomic/proatomicprivatepodspecs.git'
+
+use_frameworks!
+
+target 'ProatomicEmptyBarBackButton_Example' do
+  pod 'ProatomicEmptyBarBackButton', :path => '../'
+
+  target 'ProatomicEmptyBarBackButton_Tests' do
+    inherit! :search_paths
+
+#pod 'FBSnapshotTestCase'
+  end
+end
