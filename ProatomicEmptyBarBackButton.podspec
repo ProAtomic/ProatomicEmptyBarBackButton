@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicEmptyBarBackButton'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = "Proatomic's APIs for iOS"
   s.description      = "Proatomic dependencies for iOS."
   s.homepage         = 'http://proatomicdev.com'
@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   ]
 
   s.subspec 'Core' do |ss|
-    ss.vendored_frameworks = [ 'ProatomicEmptyBarBackButton/Frameworks/ProatomicEmptyBarBackButton-Release-iphoneuniversal/ProatomicEmptyBarBackButton.framework' ]
-end
+      ss.dependency 'ProatomicSwizzling'
+      ss.vendored_frameworks = [ 'ProatomicEmptyBarBackButton/Frameworks/ProatomicEmptyBarBackButton-Release-iphoneuniversal/ProatomicEmptyBarBackButton.framework' ]
+  end
 
 end

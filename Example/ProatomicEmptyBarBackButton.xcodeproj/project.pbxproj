@@ -321,12 +321,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProatomicEmptyBarBackButton_Example/Pods-ProatomicEmptyBarBackButton_Example-frameworks.sh",
 				"${PODS_ROOT}/../../ProatomicEmptyBarBackButton/Frameworks/ProatomicEmptyBarBackButton-Release-iphoneuniversal/ProatomicEmptyBarBackButton.framework",
+				"${PODS_ROOT}/ProatomicSwizzling/ProatomicSwizzling/Frameworks/ProatomicSwizzling-Release-iphoneuniversal/ProatomicSwizzling.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProatomicEmptyBarBackButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProatomicSwizzling.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
