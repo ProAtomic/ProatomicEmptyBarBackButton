@@ -1,5 +1,3 @@
-source 'git@bitbucket.org:proatomic/proatomicprivatepodspecs.git'
-
 use_frameworks!
 
 target 'ProatomicEmptyBarBackButton_Example' do
