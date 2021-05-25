@@ -9,13 +9,12 @@ Pod::Spec.new do |s|
   s.author           = { 'Guillermo Saenz' => 'gsaenz@proatomicdev.com' }
   s.source           = { :git => 'https://github.com/ProAtomic/ProatomicEmptyBarBackButton.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-  #s.header_dir= "Proatomic"
+  
   s.default_subspecs= [
 'Core'
   ]
 
   s.subspec 'Core' do |ss|
-      ss.dependency 'ProatomicSwizzling'
       ss.vendored_frameworks = [ 'ProatomicEmptyBarBackButton/Frameworks/ProatomicEmptyBarBackButton-Release-iphoneuniversal/ProatomicEmptyBarBackButton.xcframework' ]
   end
 
