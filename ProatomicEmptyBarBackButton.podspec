@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicEmptyBarBackButton'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = "Proatomic's APIs for iOS"
   s.description      = "Proatomic dependencies for iOS."
   s.homepage         = 'http://proatomicdev.com'
